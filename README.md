@@ -4,11 +4,11 @@ In this project the user can draw in the screen itself on a real time using thei
 # Requirements (to be installed in your system):
 python3 , numpy , opencv, mediapipe
 # Algorithm
-1.Start reading the frames from the webcam of the system
-2.Now prepare the frame based on the required conditions and space to draw and options to display and the orientation
-3.Initialize mediapipe to read the hand movements
-4.Detect the hand landmarks from the RGB frame to the mediapipe hand detector
-5.Only draw using the hand selected by the user at the starting to avoid any kind of mishaps
-6.Set the conditions when the user decides to skip the draw and move to other part of the window to draw over there
-7.Store the points where the drawing conditions are satisfied in an array
-8.Draw the points on the frame
+1.Start reading the frames from the webcam of the system./n
+2.Now prepare the frame based on the required conditions and space to draw and options to display and the orientation/n
+3.Initialize mediapipe to read the hand movements./n
+4.Detect the hand landmarks from the RGB frame to the mediapipe hand detector./n
+5.Only draw using the hand selected by the user at the starting to avoid any kind of mishaps./n
+6.Set the conditions when the user decides to skip the draw and move to other part of the window to draw over there./n
+7.Store the points where the drawing conditions are satisfied in an array./n
+8.Draw the points on the frame./n
